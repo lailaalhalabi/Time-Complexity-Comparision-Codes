@@ -6,11 +6,9 @@ import java.util.Random;
 import java.util.Stack;
 
 /**
- * @author Laila Alhalabi ID# 40106558. 
- * COMP352. 
+ * @author Laila Alhalabi 
  * Assignment 1, version 2.
  * The purpose of this version is to generate all possible combinations of a string consists of X and O without '#' using iteration. 
- * Due date February 7, 2021.
  */
 public class tictactoe2 {
 	/**
