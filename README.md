@@ -4,6 +4,7 @@ Course code: COMP352 - Data Structures & Algorithms
 
 An assignment for comparing between recursion and iteration methods time complexity by creating a game that generates all possible combinations of a random string consists of X and O without '#' using a recursive method in the first version and an iterative method in the second version. 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 After running both versions the following were observed:
 
@@ -13,10 +14,10 @@ After running the program in a for loop 12 run incrementing by 2 from 2# up to 2
 - The time complexity in the iterative method was better at the beginning till 12# run. However, after run 14# till 24#, the time complexity of the recursive method was noticeably better than the time complexity of the iterative method when the number of the hidden squares started to grow.
 The reason behind increasing the time complexity is that when finding a hidden square, the method is being called twice. Nevertheless, I think time complexity of the recursive method is scalable if better storage tools were used and if number of calls inside the method were reduced. Overall, recursion is better to use than iteration if the hidden squares number is big (16# and more).
 
-Time Complexity:
+------------------------------------------------------------------------------------------------------------------------------------------------
 
+Time Complexity:
 In both methods, best-case scenario is O(n) when there is no hidden character, and it is O(2n) when there are hidden characters that we need to find all subsets. So, the worst-case scenario is O(2n).
 
 Space Complexity:
-
 Both methods use linear search and have a space complexity of O(1). The recursive method used variables only to store, and the iterative method used stack to store.
