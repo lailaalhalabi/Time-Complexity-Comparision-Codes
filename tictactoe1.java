@@ -5,11 +5,9 @@ import java.io.PrintStream;
 import java.util.Random;
 
 /**
- * @author Laila Alhalabi ID# 40106558.
- * COMP352. 
+ * @author Laila Alhalabi 
  * Assignment 1, version 1. 
  * The purpose of this version is to generate all possible combinations of a string consists of X and O without '#' using recursion. 
- * Due date February 7, 2021.
  */
 public class tictactoe1 {
 	/**
