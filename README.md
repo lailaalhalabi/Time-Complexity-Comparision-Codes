@@ -1,6 +1,6 @@
 # Time-Complexity-Comparision-Codes
 
-An assignment for comparing between recursion and iteration methods time complexity by creating a game that generates all possible combinations of a random string consists of X and O without '#' using a recursive method in the first version and an iterative method in the second version. 
+An assignment for comparing between recursive and iterative methods time complexity by creating a game that generates all possible combinations of a random string consists of X and O without '#' using a recursive method in the first version and an iterative method in the second version. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
